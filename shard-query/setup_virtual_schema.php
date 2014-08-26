@@ -210,6 +210,7 @@ if(empty($config['shared_path'])) {
 $aws_access_key = "";
 $aws_secret_key = "";
 $used_s3 = false;
+/*
 if(strstr($config['shared_path'], "s3")) $used_s3 = true;
 echo "\033[2J\033[;H";
 if(empty($config['aws_access_key'])) {
@@ -234,7 +235,7 @@ if(empty($config['aws_secret_key'])) {
     
   }
 }
-
+ */
 
 unset($config['is_default_schema']);
 echo "* Creating/Updating configuration values\n";
